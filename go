@@ -1,2 +1,0 @@
-fisrt run
-go gogo
