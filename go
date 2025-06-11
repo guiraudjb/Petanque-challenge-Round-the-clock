@@ -1,0 +1,2 @@
+fisrt run
+go gogo
