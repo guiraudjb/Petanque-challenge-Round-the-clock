@@ -14,7 +14,7 @@ manifest = /builtins/manifests/android/AndroidManifest.xml
 minimum_sdk_version = 21
 package = com.arducible.petanqueChallenge2
 target_sdk_version = 34
-version_code = 2
+version_code = 5
 
 [bootstrap]
 main_collection = /main/main.collectionc

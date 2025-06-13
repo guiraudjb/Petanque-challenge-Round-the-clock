@@ -25,7 +25,7 @@ instances {
   position {
     x: 300.0
     y: 360.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -36,7 +36,7 @@ instances {
   scale3 {
     x: 2.0
     y: 2.0
-    z: 1.1
+    z: 1.0
   }
 }
 instances {
@@ -45,7 +45,7 @@ instances {
   position {
     x: 640.0
     y: 150.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -65,7 +65,7 @@ instances {
   position {
     x: 980.0
     y: 360.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -85,7 +85,7 @@ instances {
   position {
     x: 300.0
     y: 700.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -105,7 +105,7 @@ instances {
   position {
     x: 980.0
     y: 700.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -125,7 +125,7 @@ instances {
   position {
     x: 640.0
     y: 910.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -145,7 +145,7 @@ instances {
   position {
     x: 640.0
     y: 530.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
