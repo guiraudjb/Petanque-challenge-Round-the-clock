@@ -7,10 +7,6 @@ images {
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/lowBoule.png"
-  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-}
-images {
   image: "/assets/images/blueButton_Pressed.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
@@ -70,12 +66,12 @@ images {
   image: "/assets/images/briques.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
+images {
+  image: "/assets/images/Boule.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
 animations {
   id: "explode"
-  images {
-    image: "/assets/images/lowBouleG.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
   images {
     image: "/assets/images/Explosion1.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
@@ -88,6 +84,10 @@ animations {
     image: "/assets/images/Explosion3.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
+  images {
+    image: "/assets/images/Boule.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
   playback: PLAYBACK_ONCE_FORWARD
   fps: 4
   flip_horizontal: 0
@@ -96,11 +96,11 @@ animations {
 animations {
   id: "TagetToHit"
   images {
-    image: "/assets/images/lowBoule.png"
+    image: "/assets/images/Boule.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/images/lowBouleG.png"
+    image: "/assets/images/BouleG.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
