@@ -25,7 +25,10 @@ function init(self)
 	self.scoreP5Text = gui.get_node("scoreP5Text")
 	self.scoreP6Text = gui.get_node("scoreP6Text")
 	self.waitinformation = gui.get_node("waitinformation")
+	self.waitbox = gui.get_node("waitbox")
+	gui.set_enabled(self.waitbox, false)
 	self.gameState = gui.get_node("gameState")
+	self.tirrestanttext = gui.get_node("tirrestant")
 	self.Reste = gui.get_node("Reste")
 	self.Tour = gui.get_node("TourNumber")
 	if NumberPlayer == 1 then
@@ -108,21 +111,21 @@ function update(self, dt)
 	gui.set_text(self.Tour, tour)
 	if activekeyboard==false then
 		gui.set_text(self.waitinformation, "WAIT")
+		gui.set_text(self.tirrestanttext, "Tirs restants "..reste)
+		
+		gui.set_enabled(self.waitbox, true)
 	else
 		gui.set_text(self.waitinformation, "")
+		gui.set_enabled(self.waitbox, false)
 	end
 
 	if lastchange + 5 > os.time() then
-		gui.set_text(self.gameState, "JOUEUR "..
-		joueurEnCours)
+		gui.set_text(self.gameState, "JOUEUR "..joueurEnCours)
 	else
 		gui.set_text(self.gameState, "")
 	end
 	updateguivalues(self)
 
-
-
-	
 	updateShotLeft(self)
 end
 
