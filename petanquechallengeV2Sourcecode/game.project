@@ -30,7 +30,7 @@ app_icon_144x144 = /assets/app_icons/144x144.png
 app_icon_192x192 = /assets/app_icons/192x192.png
 input_method = KeyEvent
 package = com.arducible.petanqueChallenge2
-version_code = 6
+version_code = 7
 target_sdk_version = 34
 minimum_sdk_version = 21
 
