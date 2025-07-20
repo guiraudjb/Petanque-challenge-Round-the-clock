@@ -3,7 +3,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         package="com.arducible.petanqueChallenge2"
-        android:versionCode="9"
+        android:versionCode="11"
         android:versionName="2"
         android:appCategory="game"
         android:installLocation="auto">

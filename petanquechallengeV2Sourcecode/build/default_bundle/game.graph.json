@@ -1,7 +1,7 @@
 [ {
   "path" : "/<AnonymousRoot>",
   "hexDigest" : null,
-  "children" : [ "/main/main.collectionc", "/builtins/render/default.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+  "children" : [ "/main/main.collectionc", "/builtins/render/default.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
 }, {
   "path" : "/main/main.collectionc",
   "hexDigest" : "9c1503d5a12056076c4110c15ecc5a6528b8948c",
@@ -12,7 +12,7 @@
   "children" : [ "/main/scripts/main.scriptc", "/_generated_b05381de4b5a0d95.collectionproxyc", "/_generated_8324ad1cd853c33c.collectionproxyc", "/_generated_a5b71e908e0282e4.collectionproxyc", "/_generated_3591b64ebdf602d8.collectionproxyc", "/_generated_555a86774222320f.collectionproxyc", "/_generated_a4abafd0322aa73e.collectionproxyc" ]
 }, {
   "path" : "/main/scripts/main.scriptc",
-  "hexDigest" : "98129e2147831d570f6f1536620b0c5d91b1e82c",
+  "hexDigest" : "1279ab586d5e86b6c90b5445e8d6ea91c16cd9d8",
   "children" : [ ]
 }, {
   "path" : "/_generated_b05381de4b5a0d95.collectionproxyc",
@@ -45,7 +45,7 @@
   "children" : [ ]
 }, {
   "path" : "/shader_-7170045909771754498.spc",
-  "hexDigest" : "453bc089f09af3241119e711d62d4aaa3262fc9b",
+  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
   "children" : [ ]
 }, {
   "path" : "/assets/main.a.texturesetc",
@@ -89,7 +89,7 @@
   "children" : [ "/main/scripts/MainMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/main/scripts/MainMenu.gui_scriptc",
-  "hexDigest" : "9c6f0615987f1db50eaa515a167ebaea8bd726d6",
+  "hexDigest" : "d8f22657176ecc7df4e8a6f338cc2cbe6182d67f",
   "children" : [ ]
 }, {
   "path" : "/preset/EL_VOLCAN_black.fontc",
@@ -113,7 +113,7 @@
   "children" : [ ]
 }, {
   "path" : "/shader_4711226249295902305.spc",
-  "hexDigest" : "786bb5cc7a993076a7fdaff14b227ae860f739f6",
+  "hexDigest" : "23d7f81b2b2a3f76c15524fd6816f577cabc102d",
   "children" : [ ]
 }, {
   "path" : "/preset/medium_el_volcan.fontc",
@@ -137,7 +137,7 @@
   "children" : [ ]
 }, {
   "path" : "/shader_2713870051161532414.spc",
-  "hexDigest" : "4243c14ff0426406e2184604a4b9c80e0e90aea3",
+  "hexDigest" : "5ca30b7fbc34732d2761a36a6f95523190e79bdc",
   "children" : [ ]
 }, {
   "path" : "/_generated_8324ad1cd853c33c.collectionproxyc",
@@ -167,7 +167,7 @@
   "children" : [ "/main/scripts/ending.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/main/scripts/ending.gui_scriptc",
-  "hexDigest" : "4e10140589f6b89607c10e42c0a8842e41c31a60",
+  "hexDigest" : "a11d8a51e0bf2d8893ba5d0176b9d89b1a4a8490",
   "children" : [ ]
 }, {
   "path" : "/preset/little_el_volcan.fontc",
@@ -196,7 +196,7 @@
   "children" : [ "/main/scripts/HelpMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/main/scripts/HelpMenu.gui_scriptc",
-  "hexDigest" : "f25015d238b83460d5cc17aa73eeb82f132e7240",
+  "hexDigest" : "11bfa082a7c66668f34d75459e34697ef701ea42",
   "children" : [ ]
 }, {
   "path" : "/_generated_555a86774222320f.collectionproxyc",
@@ -217,7 +217,7 @@
   "children" : [ "/main/scripts/IngameMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/medium_el_volcan.fontc", "/preset/bigone.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/main/scripts/IngameMenu.gui_scriptc",
-  "hexDigest" : "2a493fad3a19fec159ce3be736680d277916f19c",
+  "hexDigest" : "3b2028001478908687ff9301e8332fc0de92b5e4",
   "children" : [ ]
 }, {
   "path" : "/preset/bigone.fontc",
@@ -233,7 +233,7 @@
   "children" : [ "/main/scripts/Target1.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target1.scriptc",
-  "hexDigest" : "b3beebd2cd4702285e6830a8fcf84e9c1ff8a4b9",
+  "hexDigest" : "d9b6001c3a096091e59fe1d02ebe826d429ffe9d",
   "children" : [ ]
 }, {
   "path" : "/_generated_674b9c891e8a110.spritec",
@@ -245,7 +245,7 @@
   "children" : [ "/main/scripts/Target2.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target2.scriptc",
-  "hexDigest" : "2c6a5b3b39d9e01a699ab90dde46b685b37c9e68",
+  "hexDigest" : "f6420eb256ab2b377f326658b1e08c93a2c66ab0",
   "children" : [ ]
 }, {
   "path" : "/preset/Target3.goc",
@@ -253,7 +253,7 @@
   "children" : [ "/main/scripts/Target3.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target3.scriptc",
-  "hexDigest" : "1d4a9db0158509c476f34e0e9b7b30f625fa4949",
+  "hexDigest" : "d72aad48a53ac6716e21654ba62a830599c409c3",
   "children" : [ ]
 }, {
   "path" : "/preset/Target4.goc",
@@ -261,7 +261,7 @@
   "children" : [ "/main/scripts/Target4.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target4.scriptc",
-  "hexDigest" : "fbcb2854bef520633bbd6abd7e26847adeecb7e0",
+  "hexDigest" : "a71c763a4dcac8bc1727969b611bea8de8d0282e",
   "children" : [ ]
 }, {
   "path" : "/preset/Target5.goc",
@@ -269,7 +269,7 @@
   "children" : [ "/main/scripts/Target5.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target5.scriptc",
-  "hexDigest" : "5526ddf862f1491f726f639075cb7d44c026b962",
+  "hexDigest" : "dde0c90d1c2b938ffa4e80decac57da7082f9f2f",
   "children" : [ ]
 }, {
   "path" : "/preset/Target6.goc",
@@ -277,7 +277,7 @@
   "children" : [ "/main/scripts/Target6.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target6.scriptc",
-  "hexDigest" : "a5ba0b627ccf5f9c44039ea1a403be09c472832c",
+  "hexDigest" : "a04e2ccc55e7eddbde7ae40ae72592341a735b82",
   "children" : [ ]
 }, {
   "path" : "/preset/Target7.goc",
@@ -285,7 +285,7 @@
   "children" : [ "/main/scripts/Target7.scriptc", "/_generated_674b9c891e8a110.spritec" ]
 }, {
   "path" : "/main/scripts/Target7.scriptc",
-  "hexDigest" : "282c1f116525e182f1e534375ddca2580c51f3d0",
+  "hexDigest" : "933f22c078c9d866aa49c310b1b8123f3c644e17",
   "children" : [ ]
 }, {
   "path" : "/preset/hitsound.goc",
@@ -305,7 +305,7 @@
   "children" : [ "/main/scripts/ingame.scriptc" ]
 }, {
   "path" : "/main/scripts/ingame.scriptc",
-  "hexDigest" : "c38e38efc9c74e4dcdc1be9235e7179d9e2ce2af",
+  "hexDigest" : "717892fbf9babffe1a0022547a4a8d3772a0adaf",
   "children" : [ ]
 }, {
   "path" : "/preset/joueur1.goc",
@@ -422,7 +422,7 @@
   "children" : [ "/main/scripts/OptionMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/main/scripts/OptionMenu.gui_scriptc",
-  "hexDigest" : "726b2419d97ea9512a0314f2936c7732a15e109f",
+  "hexDigest" : "a9f32b4ba65de6c60b16db9c0fd1ead297a43282",
   "children" : [ ]
 }, {
   "path" : "/builtins/render/default.renderc",
@@ -430,7 +430,7 @@
   "children" : [ "/builtins/render/default.render_scriptc" ]
 }, {
   "path" : "/builtins/render/default.render_scriptc",
-  "hexDigest" : "c51be3954db34344ad9847835676820fd087b93e",
+  "hexDigest" : "be9687639f7717f05e3ae807cc58ff82ba5d0858",
   "children" : [ ]
 }, {
   "path" : "/input/game.input_bindingc",
@@ -443,21 +443,5 @@
 }, {
   "path" : "/builtins/render/default.display_profilesc",
   "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
-  "children" : [ ]
-}, {
-  "path" : "/builtins/scripts/debugger.luac",
-  "hexDigest" : "e7007855d965b389eac2c8db5e3139b39a691efc",
-  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
-}, {
-  "path" : "/builtins/scripts/edn.luac",
-  "hexDigest" : "df4b4d6615102f4ed38e9d5324c9593437d1b304",
-  "children" : [ ]
-}, {
-  "path" : "/builtins/scripts/mobdebug.luac",
-  "hexDigest" : "deea4497f46ef802485a70e635365094145da2f2",
-  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
-}, {
-  "path" : "/builtins/scripts/socket.luac",
-  "hexDigest" : "4f105911da848960408f9c774279d1fcfaef8ea0",
   "children" : [ ]
 } ]

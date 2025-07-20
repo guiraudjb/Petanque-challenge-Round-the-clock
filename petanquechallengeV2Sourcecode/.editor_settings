@@ -21,7 +21,7 @@
       :variant "release"
       :with_symbols true
     }
-    :last-bundle-command :bundle-linux
+    :last-bundle-command :bundle-android
     :linux {
       :build_report false
       :contentless false
@@ -31,7 +31,7 @@
       :variant "debug"
       :with_symbols true
     }
-    :output-directory "/home/adm1/Documents/Petanque-challenge-Round-the-clock"
+    :output-directory "/home/adm1/Bureau"
   }
   :code {
     :find {
