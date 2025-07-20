@@ -94,10 +94,13 @@ function final(self)
 end
 
 function update(self, dt)
-	-- Add update code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
+	print(activekeyboard)
+	
+	if lasthit + 2 < os.time() then
+		activekeyboard=true
 	end
+	
+end
 
 function on_message(self, message_id, message, sender)
 	-- Add message-handling code here
@@ -184,17 +187,19 @@ function on_input(self, action_id, action)
 		gui.play_flipbook(self.Start_Game, hash("stoneButton_Released"))
 		msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ingame" })
 	end
+	if activekeyboard == true then
+		if action_id == hash("hit7") then
 
-	if action_id == hash("hit7") then
-		
 		gui.play_flipbook(self.Start_Game, hash("stoneButton_Pressed"))
-		if action.released then
-			playclick()
-			gui.play_flipbook(self.Start_Game, hash("stoneButton_Released"))
-			msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ingame" })
+			if action.released then
+				activekeyboard=false
+				lasthit=os.time()
+				playclick()
+				gui.play_flipbook(self.Start_Game, hash("stoneButton_Released"))
+				msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ingame" })
+			end
 		end
 	end
-
 	if action.pressed and gui.pick_node(gui.get_node("Options"), action.x, action.y) then
 		gui.play_flipbook(self.Options, hash("stoneButton_Pressed"))
 		playclick()

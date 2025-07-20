@@ -6,6 +6,8 @@ function init(self)
 	SoundVolume=true
 	animatelogo=true
 	self.currentScene=""
+	activekeyboard=false
+	lasthit=os.time()
 	changeScene(self, "MainMenu")
 end
 

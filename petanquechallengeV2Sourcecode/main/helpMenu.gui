@@ -15,239 +15,88 @@ textures {
   name: "main"
   texture: "/assets/main.atlas"
 }
-background_color {
-  x: 0.0
-  y: 0.0
-  z: 0.0
-  w: 0.0
-}
 nodes {
   position {
     x: 59.0
     y: 1032.0
-    z: 0.0
-    w: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
   scale {
     x: 0.5
     y: 0.5
-    z: 1.0
-    w: 1.0
-  }
-  size {
-    x: 200.0
-    y: 100.0
-    z: 0.0
-    w: 1.0
-  }
-  color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
   }
   type: TYPE_BOX
-  blend_mode: BLEND_MODE_ALPHA
   texture: "main/stoneButton_Released"
   id: "Exit"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  adjust_mode: ADJUST_MODE_FIT
   layer: "Top"
   inherit_alpha: true
-  slice9 {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 0.0
-  }
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
-  template_node_child: false
   size_mode: SIZE_MODE_AUTO
-  custom_type: 0
-  enabled: true
-  visible: true
-  material: ""
 }
 nodes {
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
-  }
   size {
     x: 200.0
     y: 100.0
-    z: 0.0
-    w: 1.0
-  }
-  color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
   }
   type: TYPE_TEXT
-  blend_mode: BLEND_MODE_ALPHA
   text: "Exit"
   font: "EL_VOLCAN_black"
   id: "exitButton"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
   outline {
     x: 1.0
     y: 1.0
     z: 1.0
-    w: 1.0
   }
   shadow {
     x: 1.0
     y: 1.0
     z: 1.0
-    w: 1.0
   }
-  adjust_mode: ADJUST_MODE_FIT
-  line_break: false
   parent: "Exit"
-  layer: ""
   inherit_alpha: true
-  alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
-  template_node_child: false
-  text_leading: 1.0
-  text_tracking: 0.0
-  custom_type: 0
-  enabled: true
-  visible: true
-  material: ""
 }
 nodes {
   position {
-    x: 270.0
+    x: 960.0
     y: 540.0
-    z: 0.0
-    w: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
   }
   size {
-    x: 540.0
+    x: 1920.0
     y: 1080.0
-    z: 0.0
-    w: 1.0
-  }
-  color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
   }
   type: TYPE_BOX
-  blend_mode: BLEND_MODE_ALPHA
   texture: "main/background"
   id: "box"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  adjust_mode: ADJUST_MODE_FIT
-  layer: ""
   inherit_alpha: true
-  slice9 {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 0.0
-  }
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
   alpha: 0.9
-  template_node_child: false
-  size_mode: SIZE_MODE_MANUAL
-  custom_type: 0
-  enabled: true
-  visible: true
-  material: ""
 }
 nodes {
   position {
-    x: -270.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
+    x: -960.0
+    y: -40.0
   }
   size {
-    x: 540.0
-    y: 1080.0
-    z: 0.0
-    w: 1.0
-  }
-  color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
+    x: 1920.0
+    y: 1000.0
   }
   type: TYPE_TEXT
-  blend_mode: BLEND_MODE_ALPHA
-  text: "\n"
+  text: "1. Objectif du jeu\n"
+  "    Votre but est simple : viser et toucher la cible d\303\251sign\303\251e par le syst\303\250me. Chaque bonne cible touch\303\251e vous rapproche de la victoire.\n"
   "\n"
-  "P\303\251tanque Challenge est une application mobile con\303\247ue pour les passionn\303\251s de p\303\251tanque qui souhaitent s\'amuser et am\303\251liorer leur pr\303\251cision au tir. \n"
-  "Que vous soyez en solo ou entre amis, relevez des d\303\251fis de tirs et suivez vos performances en temps r\303\251el !\n"
-  "Jeu en Solo : Entra\303\256nez-vous et essayez de battre vos propres records.\n"
-  "Multijoueur (jusqu\'\303\240 6 joueurs) : Invitez vos amis et relevez le d\303\251fi ensemble.\n"
-  "L\'application d\303\251signe les cibles \303\240 viser pour chaque joueur \303\240 chaque tour.\n"
-  "\303\200 chaque tir, l\'application comptabilise automatiquement les points. \n"
-  "\303\200 chaque tour, chaque joueur doit r\303\251aliser 3 tirs\n"
-  "Le nombre de tours est personnalisable depuis le menu options.\n"
-  "En fin de partie, chaque joueur peut consulter ses statistiques de r\303\251ussite au tir."
+  "2. D\303\251roulement d\342\200\231un tour\n"
+  "    Lancers par tour : Chaque joueur dispose de trois lancers par tour pour tenter de toucher la cible active.\n"
+  "\n"
+  "    Cible d\303\251sign\303\251e : L\342\200\231\303\251cran de l\342\200\231application affichera clairement la cible que vous devez viser \303\240 chaque instant. Soyez attentif aux indications !\n"
+  "\n"
+  "3. Comptabilisation des points et des lancers\n"
+  "    La d\303\251tection est automatique et pr\303\251cise gr\303\242ce \303\240 notre syst\303\250me connect\303\251.\n"
+  "    \n"
+  "    Tir r\303\251ussi : Si vous touchez la cible d\303\251sign\303\251e par le syst\303\250me, un point est automatiquement comptabilis\303\251 pour ce lancer. Le syst\303\250me enregistre \303\251galement votre tir.\n"
+  "    \n"
+  "    Tir manqu\303\251 (mauvaise cible) : Si votre boule frappe une cible diff\303\251rente de celle qui \303\251tait d\303\251sign\303\251e, un tir manqu\303\251 sera automatiquement comptabilis\303\251. Le syst\303\250me enregistre \303\251galement votre tir.\n"
+  "    \n"
+  "    Tir manqu\303\251 (aucune cible) : Si votre boule ne touche aucune cible, vous devrez alors interagir manuellement. Sous le contr\303\264le des autres joueurs, actionnez une cible (n\342\200\231importe laquelle, sauf celle qui \303\251tait d\303\251sign\303\251e) pour valider votre tir manqu\303\251. Ce geste confirmera la comptabilisation d\342\200\231un tir manqu\303\251 par le syst\303\250me.\n"
+  "\n"
+  "4. Navigation dans les menus\n"
+  "    Navigation par les boules : La navigation se fait en manipulant les boules (lancers sur des cibles sp\303\251cifiques) ou des actions sur des cibles pour simuler des s\303\251lections."
   font: "medium_el_volcan"
   id: "help"
   xanchor: XANCHOR_LEFT
@@ -257,29 +106,14 @@ nodes {
     x: 1.0
     y: 1.0
     z: 1.0
-    w: 1.0
   }
   shadow {
     x: 1.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
-  adjust_mode: ADJUST_MODE_FIT
   line_break: true
   parent: "box"
   layer: "Top"
   inherit_alpha: true
-  alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
-  template_node_child: false
-  text_leading: 1.0
-  text_tracking: 0.0
-  custom_type: 0
-  enabled: true
-  visible: true
-  material: ""
 }
 layers {
   name: "background"
@@ -289,4 +123,3 @@ layers {
 }
 material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT
-max_nodes: 512

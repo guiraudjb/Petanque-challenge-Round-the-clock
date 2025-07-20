@@ -32,9 +32,10 @@ function final(self)
 end
 
 function update(self, dt)
-	-- Add update code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
+	print(activekeyboard)
+	if lasthit + 2 < os.time() then
+		activekeyboard=true
+	end
 	gui.set_text(self.SelectedNumberTourText, NombreDeTours)
 	
 end
@@ -69,8 +70,12 @@ function on_input(self, action_id, action)
 		gui.play_flipbook(self.Exit, hash("stoneButton_Pressed"))
 		playclick()
 		if action.released then
-			gui.play_flipbook(self.Exit, hash("stoneButton_Released"))
-			msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "MainMenu" })
+			if activekeyboard == true then
+				activekeyboard=false
+				lasthit=os.time()
+				gui.play_flipbook(self.Exit, hash("stoneButton_Released"))
+				msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "MainMenu" })
+			end
 		end
 	end
 
@@ -86,7 +91,7 @@ function on_input(self, action_id, action)
 		end
 	end
 
-	if action_id == hash("hit4") then
+	if action_id == hash("hit1") then
 		gui.play_flipbook(self.Decrease_Number_Tours, hash("stoneButton_Pressed"))
 		if action.released then
 			playclick()
@@ -110,7 +115,7 @@ function on_input(self, action_id, action)
 		end
 	end
 
-	if action_id == hash("hit5") then
+	if action_id == hash("hit3") then
 		gui.play_flipbook(self.Increase_Number_Tours, hash("stoneButton_Pressed"))
 		if action.released then
 			playclick()

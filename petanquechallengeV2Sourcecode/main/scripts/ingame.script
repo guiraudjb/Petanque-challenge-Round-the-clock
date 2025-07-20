@@ -63,7 +63,12 @@ function anoncingPlayer()
 
 	end
 end
-	
+
+function sleep (a) 
+	local sec = tonumber(os.clock() + a); 
+	while (os.clock() < sec) do 
+	end 
+end
 
 function gererInterruptions()
 	--activekeyboard=false
@@ -72,6 +77,10 @@ function gererInterruptions()
 	print("Tour " .. tour .. "joueur : " .. joueurEnCours .. "reste" .. reste )
 	if joueurEnCours == NumberPlayer and tour == NombreDeTours and reste == 0 then
 		print("fin de partie")
+		lastchange=os.time()
+		lasthit=os.time()
+		--sleep(2)
+		
 		msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ending" })
 	-- gérer le changement de tour
 	elseif joueurEnCours == NumberPlayer and reste == 0 then

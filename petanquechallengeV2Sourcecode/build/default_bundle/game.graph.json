@@ -1,0 +1,463 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/builtins/render/default.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "9c1503d5a12056076c4110c15ecc5a6528b8948c",
+  "children" : [ "/_generated_2c645d4353e8728f.goc" ]
+}, {
+  "path" : "/_generated_2c645d4353e8728f.goc",
+  "hexDigest" : "5f94f7ea23f1a28fa1b7149eccc792bfb4b1e993",
+  "children" : [ "/main/scripts/main.scriptc", "/_generated_b05381de4b5a0d95.collectionproxyc", "/_generated_8324ad1cd853c33c.collectionproxyc", "/_generated_a5b71e908e0282e4.collectionproxyc", "/_generated_3591b64ebdf602d8.collectionproxyc", "/_generated_555a86774222320f.collectionproxyc", "/_generated_a4abafd0322aa73e.collectionproxyc" ]
+}, {
+  "path" : "/main/scripts/main.scriptc",
+  "hexDigest" : "98129e2147831d570f6f1536620b0c5d91b1e82c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_b05381de4b5a0d95.collectionproxyc",
+  "hexDigest" : "f3b99b3ec14dc4ce7ea0495f4e0c150baaba7f87",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/MainMenu.collectionc" ]
+}, {
+  "path" : "/main/collections/MainMenu.collectionc",
+  "hexDigest" : "cf1a6b0b0e73ba0eece534d01bb076064afd3723",
+  "children" : [ "/preset/Background.goc", "/preset/ClickSound.goc", "/preset/IntroSound.goc", "/_generated_5adf17f7f050e262.goc" ]
+}, {
+  "path" : "/preset/Background.goc",
+  "hexDigest" : "36ec654a01f69a0995f900ecb01be7f468cd3b01",
+  "children" : [ "/_generated_d4331c1cb31e7fbc.spritec" ]
+}, {
+  "path" : "/_generated_d4331c1cb31e7fbc.spritec",
+  "hexDigest" : "dac230f87dccc09d8b2ed567ddfd74a957bc52f1",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/main.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "114a43636ac193a67a063c1f6960682a1940b857",
+  "children" : [ "/builtins/materials/sprite.vp", "/builtins/materials/sprite.fp", "/shader_-7170045909771754498.spc" ]
+}, {
+  "path" : "/builtins/materials/sprite.vp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/sprite.fp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/shader_-7170045909771754498.spc",
+  "hexDigest" : "453bc089f09af3241119e711d62d4aaa3262fc9b",
+  "children" : [ ]
+}, {
+  "path" : "/assets/main.a.texturesetc",
+  "hexDigest" : "4dce71c98f8ab103960bf7d6df79f982920717ff",
+  "children" : [ "/assets/main.texturec" ]
+}, {
+  "path" : "/assets/main.texturec",
+  "hexDigest" : "e5a9eb9dc6f8790f33c128edddb7dc756c274639",
+  "children" : [ ]
+}, {
+  "path" : "/preset/ClickSound.goc",
+  "hexDigest" : "f871fdee1ffee34a78a9bc3a67b80d97760c527b",
+  "children" : [ "/_generated_f8c4170e58031c4d.soundc" ]
+}, {
+  "path" : "/_generated_f8c4170e58031c4d.soundc",
+  "hexDigest" : "4f06e42a6035cdfa7ace3c9ac9eabef038c85515",
+  "children" : [ "/assets/sounds/clic.wavc" ]
+}, {
+  "path" : "/assets/sounds/clic.wavc",
+  "hexDigest" : "613ebbc333ac21c3f8b8e6bda635a140712b67e6",
+  "children" : [ ]
+}, {
+  "path" : "/preset/IntroSound.goc",
+  "hexDigest" : "10f3d6fdc9adf14c768964ff358c883f2f37c32c",
+  "children" : [ "/_generated_910598a8ee90d343.soundc" ]
+}, {
+  "path" : "/_generated_910598a8ee90d343.soundc",
+  "hexDigest" : "2b37a99e69de473ac92b446bd52b920d495bd41d",
+  "children" : [ "/assets/sounds/intro.wavc" ]
+}, {
+  "path" : "/assets/sounds/intro.wavc",
+  "hexDigest" : "e4023f681d27299163142ee70d2e38043339ec1e",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_5adf17f7f050e262.goc",
+  "hexDigest" : "41d6685425189dc198ba3ac39a45fcbbc65f8253",
+  "children" : [ "/main/MainMenuGui.guic" ]
+}, {
+  "path" : "/main/MainMenuGui.guic",
+  "hexDigest" : "c30559bf7ccdce10916184fe82415f158e07ac29",
+  "children" : [ "/main/scripts/MainMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/scripts/MainMenu.gui_scriptc",
+  "hexDigest" : "9c6f0615987f1db50eaa515a167ebaea8bd726d6",
+  "children" : [ ]
+}, {
+  "path" : "/preset/EL_VOLCAN_black.fontc",
+  "hexDigest" : "fa57ea94dd84df0ae988de86a1357bfce523990c",
+  "children" : [ "/_generated_StrLit_df55871a67c89a47.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_StrLit_df55871a67c89a47.glyph_bankc",
+  "hexDigest" : "b08342c94737b842a4b73f9b31aed8dad3c04643",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.materialc",
+  "hexDigest" : "cdd91eadec8de6155d89320ffa9547ebbf3a578c",
+  "children" : [ "/builtins/fonts/font.vp", "/builtins/fonts/font.fp", "/shader_4711226249295902305.spc" ]
+}, {
+  "path" : "/builtins/fonts/font.vp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.fp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/shader_4711226249295902305.spc",
+  "hexDigest" : "786bb5cc7a993076a7fdaff14b227ae860f739f6",
+  "children" : [ ]
+}, {
+  "path" : "/preset/medium_el_volcan.fontc",
+  "hexDigest" : "79c6bc01bc7cdfd3916df0d34b109ac3c81da22d",
+  "children" : [ "/_generated_DejaVuSans_bc178c6844dffef0.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_DejaVuSans_bc178c6844dffef0.glyph_bankc",
+  "hexDigest" : "d4ee510794c6914515da06568ddb79d34cd7409c",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "1f5c5b42ffaeecf7c36b109a6e9908f6b5c4d4cf",
+  "children" : [ "/builtins/materials/gui.vp", "/builtins/materials/gui.fp", "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/builtins/materials/gui.vp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.fp",
+  "hexDigest" : null,
+  "children" : [ ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "4243c14ff0426406e2184604a4b9c80e0e90aea3",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_8324ad1cd853c33c.collectionproxyc",
+  "hexDigest" : "d3d1be997bbe0446b40a9d843f7d2eb1c0ca3ad8",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/Credit.collectionc" ]
+}, {
+  "path" : "/main/collections/Credit.collectionc",
+  "hexDigest" : "42af4838ad9fd1bbe289116a82924aaabf5e25d5",
+  "children" : [ "/preset/Background.goc" ]
+}, {
+  "path" : "/_generated_a5b71e908e0282e4.collectionproxyc",
+  "hexDigest" : "9e305b11137ccf7fa114a3d2cc2b464e64d681b7",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/Ending.collectionc" ]
+}, {
+  "path" : "/main/collections/Ending.collectionc",
+  "hexDigest" : "213b7d06fb73ba9b63d1385aa7ea30a514966869",
+  "children" : [ "/preset/Background.goc", "/preset/ClickSound.goc", "/_generated_d8e17307b7535a17.goc" ]
+}, {
+  "path" : "/_generated_d8e17307b7535a17.goc",
+  "hexDigest" : "553ec7d3c9de9204ad98f59f330aee6bdd5d008d",
+  "children" : [ "/main/ending.guic" ]
+}, {
+  "path" : "/main/ending.guic",
+  "hexDigest" : "7bc39de3b365c7bd33414bd6110fe4fcf98ae04b",
+  "children" : [ "/main/scripts/ending.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/scripts/ending.gui_scriptc",
+  "hexDigest" : "4e10140589f6b89607c10e42c0a8842e41c31a60",
+  "children" : [ ]
+}, {
+  "path" : "/preset/little_el_volcan.fontc",
+  "hexDigest" : "6bd5c96cb2d213ea67848a53c132378f1b600647",
+  "children" : [ "/_generated_EL_VOLCAN_black_724fa7c920721e87.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_EL_VOLCAN_black_724fa7c920721e87.glyph_bankc",
+  "hexDigest" : "8d1ad55a4e9d57787db23ff9908e486609c3e47d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_3591b64ebdf602d8.collectionproxyc",
+  "hexDigest" : "026143fa5b20f1bac82034fd5332871ea6ef2ce9",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/GameInfo.collectionc" ]
+}, {
+  "path" : "/main/collections/GameInfo.collectionc",
+  "hexDigest" : "313179873c6613af5d686ce8d6a05c045f363008",
+  "children" : [ "/preset/Background.goc", "/preset/ClickSound.goc", "/_generated_f6e8ee50989bd788.goc" ]
+}, {
+  "path" : "/_generated_f6e8ee50989bd788.goc",
+  "hexDigest" : "e1761925df4e5ed6ff9e62e2637d89e134cda8dd",
+  "children" : [ "/main/helpMenu.guic" ]
+}, {
+  "path" : "/main/helpMenu.guic",
+  "hexDigest" : "c4148f11bedd828097c8a3926214515de8ac198b",
+  "children" : [ "/main/scripts/HelpMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/scripts/HelpMenu.gui_scriptc",
+  "hexDigest" : "f25015d238b83460d5cc17aa73eeb82f132e7240",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_555a86774222320f.collectionproxyc",
+  "hexDigest" : "7653daffdc081edcb0ca65339bd14f879c4262cf",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/InGame.collectionc" ]
+}, {
+  "path" : "/main/collections/InGame.collectionc",
+  "hexDigest" : "b6ee56f2c636ae175daf16f445d3ce51aa8a9a0a",
+  "children" : [ "/preset/Background.goc", "/preset/ClickSound.goc", "/_generated_c34122ee8f317654.goc", "/preset/Target1.goc", "/preset/Target2.goc", "/preset/Target3.goc", "/preset/Target4.goc", "/preset/Target5.goc", "/preset/Target6.goc", "/preset/Target7.goc", "/preset/hitsound.goc", "/_generated_431d0206850a0177.goc", "/preset/joueur1.goc", "/preset/joueur2.goc", "/preset/joueur3.goc", "/preset/joueur4.goc", "/preset/joueur5.goc", "/preset/joueur6.goc", "/preset/joueursuivant.goc", "/preset/missound.goc" ]
+}, {
+  "path" : "/_generated_c34122ee8f317654.goc",
+  "hexDigest" : "d3eeda9c2bc1a5d90f30d74bf3e3af9a90b8597d",
+  "children" : [ "/main/IngameMenu.guic" ]
+}, {
+  "path" : "/main/IngameMenu.guic",
+  "hexDigest" : "bc3bd4b727b7dd3f55fd0e93b624d37e604c6d95",
+  "children" : [ "/main/scripts/IngameMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/medium_el_volcan.fontc", "/preset/bigone.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/scripts/IngameMenu.gui_scriptc",
+  "hexDigest" : "2a493fad3a19fec159ce3be736680d277916f19c",
+  "children" : [ ]
+}, {
+  "path" : "/preset/bigone.fontc",
+  "hexDigest" : "24f7896816082448bde8b518b5ac9d7c99c63d2b",
+  "children" : [ "/_generated_EL_VOLCAN_black_43c2b2b1f7d383b7.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_EL_VOLCAN_black_43c2b2b1f7d383b7.glyph_bankc",
+  "hexDigest" : "d217d8e59d6a989acce9a08c6dc3377a5793a2d6",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target1.goc",
+  "hexDigest" : "8eeba4f9265b80808cfa4c44de326e47f69a386c",
+  "children" : [ "/main/scripts/Target1.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target1.scriptc",
+  "hexDigest" : "b3beebd2cd4702285e6830a8fcf84e9c1ff8a4b9",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_674b9c891e8a110.spritec",
+  "hexDigest" : "554c3bf1da9ae4e1047393931f9f0c419b49ecbe",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/main.a.texturesetc" ]
+}, {
+  "path" : "/preset/Target2.goc",
+  "hexDigest" : "05bc800c485a28cce6aa01e44468673828a22582",
+  "children" : [ "/main/scripts/Target2.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target2.scriptc",
+  "hexDigest" : "2c6a5b3b39d9e01a699ab90dde46b685b37c9e68",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target3.goc",
+  "hexDigest" : "2487ee0b287e0777f19a0051e09c0e0e2aeb9cd0",
+  "children" : [ "/main/scripts/Target3.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target3.scriptc",
+  "hexDigest" : "1d4a9db0158509c476f34e0e9b7b30f625fa4949",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target4.goc",
+  "hexDigest" : "4fc6881e0321c69f45f93bbaf33f55d6bed11a97",
+  "children" : [ "/main/scripts/Target4.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target4.scriptc",
+  "hexDigest" : "fbcb2854bef520633bbd6abd7e26847adeecb7e0",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target5.goc",
+  "hexDigest" : "bfd69470b88262d03a29e650e05dadd6f7d7fe61",
+  "children" : [ "/main/scripts/Target5.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target5.scriptc",
+  "hexDigest" : "5526ddf862f1491f726f639075cb7d44c026b962",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target6.goc",
+  "hexDigest" : "f557dd1fb64e141e18efc85e5715d4e80ea4b359",
+  "children" : [ "/main/scripts/Target6.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target6.scriptc",
+  "hexDigest" : "a5ba0b627ccf5f9c44039ea1a403be09c472832c",
+  "children" : [ ]
+}, {
+  "path" : "/preset/Target7.goc",
+  "hexDigest" : "ead71a8e9c71958ef033b51db72ad2edd2cd655d",
+  "children" : [ "/main/scripts/Target7.scriptc", "/_generated_674b9c891e8a110.spritec" ]
+}, {
+  "path" : "/main/scripts/Target7.scriptc",
+  "hexDigest" : "282c1f116525e182f1e534375ddca2580c51f3d0",
+  "children" : [ ]
+}, {
+  "path" : "/preset/hitsound.goc",
+  "hexDigest" : "e772f55d814b47ca928eb83dde04ae232c08303f",
+  "children" : [ "/_generated_17206df97e1a8e13.soundc" ]
+}, {
+  "path" : "/_generated_17206df97e1a8e13.soundc",
+  "hexDigest" : "e7f28abbcefec9df0d7622ce0a2ee29da5c7a372",
+  "children" : [ "/assets/sounds/Son3.wavc" ]
+}, {
+  "path" : "/assets/sounds/Son3.wavc",
+  "hexDigest" : "d31bce3683e6e8e5015f34d3c8fc9388d44e7e55",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_431d0206850a0177.goc",
+  "hexDigest" : "092b52cb7f8cd0c6c014516d257a397a159ddb76",
+  "children" : [ "/main/scripts/ingame.scriptc" ]
+}, {
+  "path" : "/main/scripts/ingame.scriptc",
+  "hexDigest" : "c38e38efc9c74e4dcdc1be9235e7179d9e2ce2af",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur1.goc",
+  "hexDigest" : "eeab60a8c02259c9a9629e06c4e9f65ce0df4505",
+  "children" : [ "/_generated_fc693871c4404e43.soundc" ]
+}, {
+  "path" : "/_generated_fc693871c4404e43.soundc",
+  "hexDigest" : "e7a6cf5b01b9f65a20387d29877a7429a7191466",
+  "children" : [ "/assets/sounds/joueur1.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur1.wavc",
+  "hexDigest" : "b7893939b2a1071986de2ee53fa4651576b45d92",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur2.goc",
+  "hexDigest" : "3197caa6c8433a0bb89cd2dc4e2f84c2996756f6",
+  "children" : [ "/_generated_cd428614a0b20f57.soundc" ]
+}, {
+  "path" : "/_generated_cd428614a0b20f57.soundc",
+  "hexDigest" : "911ffa5b940dac65e724aa9e8d3b27e3e104e1a0",
+  "children" : [ "/assets/sounds/joueur2.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur2.wavc",
+  "hexDigest" : "16a33e9d18b510bd783c3b5f934fa9fcec1ab97e",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur3.goc",
+  "hexDigest" : "db6d9e67c8a4a0a2faa91419919b9279e5777858",
+  "children" : [ "/_generated_111651b23ceb2af2.soundc" ]
+}, {
+  "path" : "/_generated_111651b23ceb2af2.soundc",
+  "hexDigest" : "fac45882a248d46712c678cf366feb70d54b4eac",
+  "children" : [ "/assets/sounds/joueur3.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur3.wavc",
+  "hexDigest" : "94e55374367b907b3c1fbc1e64ac7bdcbe612e9d",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur4.goc",
+  "hexDigest" : "bea3e8c10ab1c9f363d37a5110cb54a393a0ead0",
+  "children" : [ "/_generated_8a620e09729200c1.soundc" ]
+}, {
+  "path" : "/_generated_8a620e09729200c1.soundc",
+  "hexDigest" : "99ac9854fc752bfaa7cc3df4135b5fd99d22a9aa",
+  "children" : [ "/assets/sounds/joueur4.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur4.wavc",
+  "hexDigest" : "c1449917c5e39a129e9beec9fd2a066328b1f243",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur5.goc",
+  "hexDigest" : "0360586cfc28824510f3de333d8329af321d8873",
+  "children" : [ "/_generated_fda730b2bd460089.soundc" ]
+}, {
+  "path" : "/_generated_fda730b2bd460089.soundc",
+  "hexDigest" : "aaa51b9ca70986c0924c0adce3379e0358837ff0",
+  "children" : [ "/assets/sounds/joueur5.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur5.wavc",
+  "hexDigest" : "72124e9017558ba0d5750caf7eec388a9a656d9a",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueur6.goc",
+  "hexDigest" : "8072a00fa492443ebc47ae06e84318b6e71490c9",
+  "children" : [ "/_generated_1e8eb29bde095fe0.soundc" ]
+}, {
+  "path" : "/_generated_1e8eb29bde095fe0.soundc",
+  "hexDigest" : "18b9c380f62ee8edefb3b7e0e839204de1d58f58",
+  "children" : [ "/assets/sounds/joueur6.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueur6.wavc",
+  "hexDigest" : "b9422b089f6ed6bccf186c3e6d467c541a1acb1e",
+  "children" : [ ]
+}, {
+  "path" : "/preset/joueursuivant.goc",
+  "hexDigest" : "77085b91b9754d40a8f5d80868f7d08259783242",
+  "children" : [ "/_generated_df478612f009f98e.soundc" ]
+}, {
+  "path" : "/_generated_df478612f009f98e.soundc",
+  "hexDigest" : "97378e0ce0b2ff288bffcf98e1d5aa2f68165ae4",
+  "children" : [ "/assets/sounds/joueursuivant.wavc" ]
+}, {
+  "path" : "/assets/sounds/joueursuivant.wavc",
+  "hexDigest" : "067c4779c6a80e84c4fe3a53efd2f6441843fa20",
+  "children" : [ ]
+}, {
+  "path" : "/preset/missound.goc",
+  "hexDigest" : "2783e25d239a6f362c5e79808169ed38e358d531",
+  "children" : [ "/_generated_bddf319192756565.soundc" ]
+}, {
+  "path" : "/_generated_bddf319192756565.soundc",
+  "hexDigest" : "c8cf4912c7a9e78bea9cfc4d893dd41094cb44b3",
+  "children" : [ "/assets/sounds/Son2.wavc" ]
+}, {
+  "path" : "/assets/sounds/Son2.wavc",
+  "hexDigest" : "17b7fa4d231e7123062664a3583cf068300dee88",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_a4abafd0322aa73e.collectionproxyc",
+  "hexDigest" : "9c567f6f0104ebef81e096d17ad7d114f46ae718",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/collections/Options.collectionc" ]
+}, {
+  "path" : "/main/collections/Options.collectionc",
+  "hexDigest" : "56b8facaf1bdbe676cc85703353989fd71713db4",
+  "children" : [ "/preset/Background.goc", "/preset/ClickSound.goc", "/_generated_feae23211adb53fc.goc" ]
+}, {
+  "path" : "/_generated_feae23211adb53fc.goc",
+  "hexDigest" : "1e1ec8a01592b4c1405f2b4812147d14a5ce2fc1",
+  "children" : [ "/main/optionsMenu.guic" ]
+}, {
+  "path" : "/main/optionsMenu.guic",
+  "hexDigest" : "a660e7f2aee5758e8c6909e184951ae50508b673",
+  "children" : [ "/main/scripts/OptionMenu.gui_scriptc", "/preset/EL_VOLCAN_black.fontc", "/preset/little_el_volcan.fontc", "/preset/medium_el_volcan.fontc", "/assets/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/scripts/OptionMenu.gui_scriptc",
+  "hexDigest" : "726b2419d97ea9512a0314f2936c7732a15e109f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.renderc",
+  "hexDigest" : "62fcf66fed9988305fe48996f4d7693b2fac6e49",
+  "children" : [ "/builtins/render/default.render_scriptc" ]
+}, {
+  "path" : "/builtins/render/default.render_scriptc",
+  "hexDigest" : "c51be3954db34344ad9847835676820fd087b93e",
+  "children" : [ ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "dfe76a46610f7d1db94286d202e0e89107577be2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "07700b320c1183f49572225b25658e5a971af912",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/debugger.luac",
+  "hexDigest" : "e7007855d965b389eac2c8db5e3139b39a691efc",
+  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
+}, {
+  "path" : "/builtins/scripts/edn.luac",
+  "hexDigest" : "df4b4d6615102f4ed38e9d5324c9593437d1b304",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/mobdebug.luac",
+  "hexDigest" : "deea4497f46ef802485a70e635365094145da2f2",
+  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
+}, {
+  "path" : "/builtins/scripts/socket.luac",
+  "hexDigest" : "4f105911da848960408f9c774279d1fcfaef8ea0",
+  "children" : [ ]
+} ]

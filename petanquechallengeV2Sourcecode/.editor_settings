@@ -1,6 +1,37 @@
 {
   :bundle {
-    :output-directory "/home/adm1/Bureau"
+    :android {
+      :architectures #{
+        "arm64-android"
+        "armv7-android"
+      }
+      :build_report false
+      :bundle_format #{
+        "aab"
+        "apk"
+      }
+      :contentless false
+      :install false
+      :key-pass ""
+      :keystore ""
+      :keystore-pass ""
+      :launch false
+      :liveupdate false
+      :texture_compression "enabled"
+      :variant "release"
+      :with_symbols true
+    }
+    :last-bundle-command :bundle-linux
+    :linux {
+      :build_report false
+      :contentless false
+      :liveupdate false
+      :platform "x86_64-linux"
+      :texture_compression "enabled"
+      :variant "debug"
+      :with_symbols true
+    }
+    :output-directory "/home/adm1/Documents/Petanque-challenge-Round-the-clock"
   }
   :code {
     :find {
@@ -9,34 +40,6 @@
   }
   :workflow {
     :recent-files [
-      [
-        "/preset/hitsound.go"
-        :scene
-      ]
-      [
-        "/main/MainMenuGui.gui"
-        :scene
-      ]
-      [
-        "/main/collections/MainMenu.collection"
-        :scene
-      ]
-      [
-        "/preset/EL_VOLCAN_black.font"
-        :scene
-      ]
-      [
-        "/preset/bigone.font"
-        :scene
-      ]
-      [
-        "/main/scripts/Target2.script"
-        :code
-      ]
-      [
-        "/main/scripts/Target3.script"
-        :code
-      ]
       [
         "/main/scripts/Target4.script"
         :code
@@ -54,23 +57,11 @@
         :code
       ]
       [
-        "/main/scripts/ending.gui_script"
-        :code
-      ]
-      [
         "/preset/joueursuivant.go"
         :scene
       ]
       [
-        "/main/scripts/main.script"
-        :code
-      ]
-      [
         "/preset/player1.go"
-        :scene
-      ]
-      [
-        "/main/IngameMenu.gui"
         :scene
       ]
       [
@@ -98,14 +89,6 @@
         :scene
       ]
       [
-        "/main/scripts/Target1.script"
-        :code
-      ]
-      [
-        "/main/scripts/ingame.script"
-        :code
-      ]
-      [
         "/input/game.input_binding"
         :cljfx-form-view
       ]
@@ -114,7 +97,63 @@
         :scene
       ]
       [
+        "/manifest.private.der"
+        :text
+      ]
+      [
+        "/main/helpMenu.gui"
+        :scene
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/main/MainMenuGui.gui"
+        :scene
+      ]
+      [
+        "/main/optionsMenu.gui"
+        :scene
+      ]
+      [
+        "/main/scripts/Target3.script"
+        :code
+      ]
+      [
+        "/main/IngameMenu.gui"
+        :scene
+      ]
+      [
+        "/main/scripts/ingame.script"
+        :code
+      ]
+      [
+        "/main/scripts/Target1.script"
+        :code
+      ]
+      [
+        "/main/scripts/main.script"
+        :code
+      ]
+      [
+        "/main/ending.gui"
+        :scene
+      ]
+      [
+        "/main/scripts/ending.gui_script"
+        :code
+      ]
+      [
+        "/main/scripts/HelpMenu.gui_script"
+        :code
+      ]
+      [
         "/main/scripts/IngameMenu.gui_script"
+        :code
+      ]
+      [
+        "/main/scripts/Target2.script"
         :code
       ]
       [
@@ -124,14 +163,6 @@
       [
         "/main/scripts/OptionMenu.gui_script"
         :code
-      ]
-      [
-        "/main/scripts/HelpMenu.gui_script"
-        :code
-      ]
-      [
-        "/manifest.private.der"
-        :text
       ]
       [
         "/game.project"
