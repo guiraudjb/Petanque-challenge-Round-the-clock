@@ -41,10 +41,6 @@
   :workflow {
     :recent-files [
       [
-        "/preset/player1.go"
-        :scene
-      ]
-      [
         "/preset/joueur1.go"
         :scene
       ]
@@ -69,19 +65,11 @@
         :scene
       ]
       [
-        "/input/game.input_binding"
-        :cljfx-form-view
-      ]
-      [
         "/manifest.private.der"
         :text
       ]
       [
         "/main/scripts/Target3.script"
-        :code
-      ]
-      [
-        "/main/scripts/Target1.script"
         :code
       ]
       [
@@ -117,6 +105,22 @@
         :scene
       ]
       [
+        "/main/MainMenuGui.gui"
+        :scene
+      ]
+      [
+        "/main/scripts/ingame.script"
+        :code
+      ]
+      [
+        "/main/optionsMenu.gui"
+        :scene
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
         "/main/IngameMenu.gui"
         :scene
       ]
@@ -133,22 +137,6 @@
         :scene
       ]
       [
-        "/main/scripts/ingame.script"
-        :code
-      ]
-      [
-        "/main/MainMenuGui.gui"
-        :scene
-      ]
-      [
-        "/main/optionsMenu.gui"
-        :scene
-      ]
-      [
-        "/main/main.collection"
-        :scene
-      ]
-      [
         "/main/collections/InGame.collection"
         :scene
       ]
@@ -161,12 +149,24 @@
         :code
       ]
       [
-        "/main/scripts/MainMenu.gui_script"
+        "/main/scripts/Target1.script"
         :code
+      ]
+      [
+        "/main/scripts/cible1.script"
+        :code
+      ]
+      [
+        "/input/game.input_binding"
+        :cljfx-form-view
       ]
       [
         "/main/collections/MainMenu.collection"
         :scene
+      ]
+      [
+        "/main/scripts/MainMenu.gui_script"
+        :code
       ]
     ]
   }

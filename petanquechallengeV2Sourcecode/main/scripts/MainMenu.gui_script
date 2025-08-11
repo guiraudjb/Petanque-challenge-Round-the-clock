@@ -46,7 +46,6 @@ end
 function init(self)
 	-- Acquires Input Focus
 	msg.post(".", "acquire_input_focus")
-	
 	--self.TSLogo = gui.get_node("TSLogo")
 	self.gameLogo = gui.get_node("gameLogo")
 
