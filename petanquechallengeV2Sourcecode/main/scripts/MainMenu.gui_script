@@ -111,12 +111,12 @@ end
 function on_input(self, action_id, action)
 
 	if action.pressed and gui.pick_node(gui.get_node("Decrease_Number_Player"), action.x, action.y) then
-		gui.play_flipbook(self.Decrease_Number_Player, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Decrease_Number_Player, hash("BouleG"))
 		playclick()
 	end
 
 	if action.released and gui.pick_node(gui.get_node("Decrease_Number_Player"), action.x, action.y) then
-		gui.play_flipbook(self.Decrease_Number_Player, hash("stoneButton_Released"))
+		gui.play_flipbook(self.Decrease_Number_Player, hash("Boule"))
 		if NumberPlayer > 1 then
 			NumberPlayer = NumberPlayer - 1
 		else
@@ -129,11 +129,11 @@ function on_input(self, action_id, action)
 	end
 
 	if action_id == hash("hit1") then
-		gui.play_flipbook(self.Decrease_Number_Player, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Decrease_Number_Player, hash("BouleG"))
 		
 		if action.released then
 			playclick()
-			gui.play_flipbook(self.Decrease_Number_Player, hash("stoneButton_Released"))
+			gui.play_flipbook(self.Decrease_Number_Player, hash("Boule"))
 				if NumberPlayer > 1 then
 					NumberPlayer = NumberPlayer - 1
 				else
@@ -146,12 +146,12 @@ function on_input(self, action_id, action)
 		
 
 	if action.pressed and gui.pick_node(gui.get_node("Increase_Number_Player"), action.x, action.y) then
-		gui.play_flipbook(self.Increase_Number_Player, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Increase_Number_Player, hash("BouleG"))
 		playclick()
 	end
 
 	if action.released and gui.pick_node(gui.get_node("Increase_Number_Player"), action.x, action.y) then
-		gui.play_flipbook(self.Increase_Number_Player, hash("stoneButton_Released"))
+		gui.play_flipbook(self.Increase_Number_Player, hash("Boule"))
 		if NumberPlayer < 6 then
 			NumberPlayer = NumberPlayer + 1
 		else
@@ -162,10 +162,10 @@ function on_input(self, action_id, action)
 	end
 
 	if action_id == hash("hit3") then
-		gui.play_flipbook(self.Increase_Number_Player, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Increase_Number_Player, hash("BouleG"))
 		if action.released then
 			playclick()
-			gui.play_flipbook(self.Increase_Number_Player, hash("stoneButton_Released"))
+			gui.play_flipbook(self.Increase_Number_Player, hash("Boule"))
 			if NumberPlayer < 6 then
 				NumberPlayer = NumberPlayer + 1
 			else
@@ -178,64 +178,64 @@ function on_input(self, action_id, action)
 	
 
 	if action.pressed and gui.pick_node(gui.get_node("Start_Game"), action.x, action.y) then
-		gui.play_flipbook(self.Start_Game, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Start_Game, hash("BouleG"))
 		playclick()
 		
 	end
 
 	if action.released and gui.pick_node(gui.get_node("Start_Game"), action.x, action.y) then
-		gui.play_flipbook(self.Start_Game, hash("stoneButton_Released"))
+		gui.play_flipbook(self.Start_Game, hash("Boule"))
 		msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ingame" })
 	end
 	if activekeyboard == true then
 		if action_id == hash("hit7") then
 
-		gui.play_flipbook(self.Start_Game, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Start_Game, hash("BouleG"))
 			if action.released then
 				activekeyboard=false
 				lasthit=os.time()
 				playclick()
-				gui.play_flipbook(self.Start_Game, hash("stoneButton_Released"))
+				gui.play_flipbook(self.Start_Game, hash("Boule"))
 				msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Ingame" })
 			end
 		end
 	end
 	if action.pressed and gui.pick_node(gui.get_node("Options"), action.x, action.y) then
-		gui.play_flipbook(self.Options, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Options, hash("BouleG"))
 		playclick()
 	end
 
 	if action.released and gui.pick_node(gui.get_node("Options"), action.x, action.y) then
-		gui.play_flipbook(self.Options, hash("stoneButton_Released"))
+		gui.play_flipbook(self.Options, hash("Boule"))
 		msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Options" })
 	end
 
 	if action_id == hash("hit4") then
-		gui.play_flipbook(self.Options, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Options, hash("BouleG"))
 			
 		if action.released then
 			playclick()
-			gui.play_flipbook(self.Options, hash("stoneButton_Released"))
+			gui.play_flipbook(self.Options, hash("Boule"))
 			msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "Options" })
 		end
 
 	end
 	
 	if action.pressed and gui.pick_node(gui.get_node("Aide"), action.x, action.y) then
-		gui.play_flipbook(self.Aide, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Aide, hash("BouleG"))
 		playclick()
 	end
 
 	if action.released and gui.pick_node(gui.get_node("Aide"), action.x, action.y) then
-		gui.play_flipbook(self.Aide, hash("stoneButton_Released"))
+		gui.play_flipbook(self.Aide, hash("Boule"))
 		msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "GameInfo" })
 	end
 
 	if action_id == hash("hit5") then
-		gui.play_flipbook(self.Aide, hash("stoneButton_Pressed"))
+		gui.play_flipbook(self.Aide, hash("BouleG"))
 		if action.released then
 			playclick()
-			gui.play_flipbook(self.Aide, hash("stoneButton_Released"))
+			gui.play_flipbook(self.Aide, hash("Boule"))
 			msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "GameInfo" })
 		end
 	end

@@ -24,12 +24,15 @@ nodes {
     x: 0.5
     y: 0.5
   }
+  size {
+    x: 190.0
+    y: 139.0
+  }
   type: TYPE_BOX
   texture: "main/stoneButton_Released"
   id: "Exit"
   layer: "Top"
   inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   size {
@@ -37,7 +40,7 @@ nodes {
     y: 100.0
   }
   type: TYPE_TEXT
-  text: "Exit"
+  text: "Sortie"
   font: "EL_VOLCAN_black"
   id: "exitButton"
   outline {

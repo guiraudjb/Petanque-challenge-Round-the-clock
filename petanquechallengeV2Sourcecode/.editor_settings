@@ -21,7 +21,7 @@
       :variant "release"
       :with_symbols true
     }
-    :last-bundle-command :bundle-android
+    :last-bundle-command :bundle-linux
     :linux {
       :build_report false
       :contentless false
@@ -31,7 +31,7 @@
       :variant "debug"
       :with_symbols true
     }
-    :output-directory "/home/adm1/Bureau"
+    :output-directory "/home/adm1/Documents/Petanque-challenge-Round-the-clock"
   }
   :code {
     :find {
@@ -40,26 +40,6 @@
   }
   :workflow {
     :recent-files [
-      [
-        "/main/scripts/Target4.script"
-        :code
-      ]
-      [
-        "/main/scripts/Target5.script"
-        :code
-      ]
-      [
-        "/main/scripts/Target6.script"
-        :code
-      ]
-      [
-        "/main/scripts/Target7.script"
-        :code
-      ]
-      [
-        "/preset/joueursuivant.go"
-        :scene
-      ]
       [
         "/preset/player1.go"
         :scene
@@ -93,39 +73,11 @@
         :cljfx-form-view
       ]
       [
-        "/main/collections/InGame.collection"
-        :scene
-      ]
-      [
         "/manifest.private.der"
         :text
       ]
       [
-        "/main/helpMenu.gui"
-        :scene
-      ]
-      [
-        "/main/main.collection"
-        :scene
-      ]
-      [
-        "/main/MainMenuGui.gui"
-        :scene
-      ]
-      [
-        "/main/optionsMenu.gui"
-        :scene
-      ]
-      [
         "/main/scripts/Target3.script"
-        :code
-      ]
-      [
-        "/main/IngameMenu.gui"
-        :scene
-      ]
-      [
-        "/main/scripts/ingame.script"
         :code
       ]
       [
@@ -135,10 +87,6 @@
       [
         "/main/scripts/main.script"
         :code
-      ]
-      [
-        "/main/ending.gui"
-        :scene
       ]
       [
         "/main/scripts/ending.gui_script"
@@ -157,16 +105,68 @@
         :code
       ]
       [
-        "/main/scripts/MainMenu.gui_script"
+        "/game.project"
+        :cljfx-form-view
+      ]
+      [
+        "/main/collections/GameInfo.collection"
+        :scene
+      ]
+      [
+        "/main/collections/Ending.collection"
+        :scene
+      ]
+      [
+        "/main/IngameMenu.gui"
+        :scene
+      ]
+      [
+        "/main/helpMenu.gui"
+        :scene
+      ]
+      [
+        "/main/ending.gui"
+        :scene
+      ]
+      [
+        "/assets/main.atlas"
+        :scene
+      ]
+      [
+        "/main/scripts/ingame.script"
         :code
+      ]
+      [
+        "/main/MainMenuGui.gui"
+        :scene
+      ]
+      [
+        "/main/optionsMenu.gui"
+        :scene
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/main/collections/InGame.collection"
+        :scene
+      ]
+      [
+        "/main/collections/Options.collection"
+        :scene
       ]
       [
         "/main/scripts/OptionMenu.gui_script"
         :code
       ]
       [
-        "/game.project"
-        :cljfx-form-view
+        "/main/scripts/MainMenu.gui_script"
+        :code
+      ]
+      [
+        "/main/collections/MainMenu.collection"
+        :scene
       ]
     ]
   }

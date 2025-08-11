@@ -1,6 +1,6 @@
 
-•S
-ÅSfunction init(self)
+¶S
+ÇSfunction init(self)
 	-- Add initialization code here
 	-- Learn more: https://defold.com/manuals/script/
 	-- Remove this function if not needed
@@ -292,10 +292,11 @@ function on_input(self, action_id, action)
 		if action_id == hash("hit7") then
 				gui.play_flipbook(self.Exit, hash("stoneButton_Pressed"))
 				if action.released then
-					playclick()
-					gui.play_flipbook(self.Exit, hash("stoneButton_Released"))
 					activekeyboard=false
 					lasthit=os.time()
+					playclick()
+					gui.play_flipbook(self.Exit, hash("stoneButton_Released"))
+
 					msg.post("main:/CollectionLoader#main", "changeScene", { newScene = "MainMenu" })
 				end
 		end
